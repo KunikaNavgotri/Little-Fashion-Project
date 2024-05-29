@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    background-color:#f8f1f7;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid rgb(223, 222, 222);
+}
+
+.logo_container {
+    margin: left 4%;
+}
+
+.logo-image{
+    height: 20px;
+    width: 25px;
+}
+
+.nav_container{
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 500px
+    
+}
+
+.nav_container a {
+    text-decoration: none;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 30px 0;
+    letter-spacing:3px ;
+}
+
+.nav_container a:hover {
+    color:blue;
+}
+
+.action_container{
+    display: flex;
+    min-width:200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.banner_container{
+    margin: 10px 0;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+.banner-heading {
+    position: absolute;
+    left: 5%;
+    top: 8%;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+span{
+    color: orangered;
+}
+
+.main-heading{
+    letter-spacing: .15em;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.imageA{
+    width: 70%;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    border: 2px groove;
+    letter-spacing: .12em;
+    
+}
+
+.product_image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sale-item{
+    width: 250px;
+    padding: 25px;
+ }
+
+ .footer_container{
+    padding: 30px 0px 40px 0;
+    margin: 50px 50px;
+    color: white;
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_container a{
+    text-decoration: none;
+    color: bisque;
+}
+
+.footer_container h3{
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.footer_colum{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
